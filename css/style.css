@@ -1,0 +1,219 @@
+.wrapper {
+   overflow: hidden;
+   min-height: 100%;
+}
+
+.page__container {
+   max-width: 1240px;
+   margin: 0 auto;
+}
+
+.page__nature {
+   width: 100%;
+   position: relative;
+}
+
+.page__nature img {
+   width: 100%;
+}
+
+.car {
+   width: 800px;
+   height: 400px;
+   position: absolute;
+   top: 350px;
+   left: 200px;
+}
+
+.car__top {
+   width: 400px;
+   height: 120px;
+   border: 5px solid black;
+   border-radius: 61% 41% 2% 23% / 100% 57% 0% 0%;
+   position: absolute;
+   top: 0px;
+   left: 250px;
+   background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(92, 92, 90, 1) 49%, rgba(247, 247, 247, 1) 100%);
+}
+
+.car__bottom {
+   width: 700px;
+   height: 150px;
+   border: 5px solid black;
+   border-radius: 82% 17% 90% 97% / 52% 41% 24% 26%;
+   position: absolute;
+   background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(92, 92, 90, 1) 49%, rgba(247, 247, 247, 1) 100%);
+   top: 100px;
+   left: 50px;
+}
+
+.window-front {
+   border: 5px solid rgba(75, 75, 187, 0.7);
+   overflow: hidden;
+   background: rgba(218, 218, 219, 0.993);
+   width: 200px;
+   height: 80px;
+   border-radius: 100% 0% 0% 0% / 100% 0% 53% 0%;
+   position: absolute;
+   top: 10px;
+   left: 20px;
+}
+
+.window-front::before {
+   content: "";
+   display: inline-block;
+   background: url("../img/lyashko.jpg");
+   background-size: cover;
+   width: 200px;
+   height: 100px;
+}
+
+.top-line {
+   width: 5px;
+   height: 100px;
+   border: 2px solid black;
+   background: black;
+   position: absolute;
+   top: 1px;
+   left: 227px;
+}
+
+.window-back {
+   border: 5px solid rgb(75, 75, 187);
+   background: rgba(218, 218, 219, 0.993);
+   width: 130px;
+   height: 80px;
+   border-radius: 0% 58% 100% 0% / 100% 100% 0% 0%;
+   position: absolute;
+   top: 10px;
+   left: 240px;
+}
+
+.flag {
+   width: 150px;
+   height: 150px;
+   background: url("../img/flag.png");
+   position: absolute;
+   bottom: 0px;
+   left: 250px;
+}
+
+.door-front {
+   width: 250px;
+   height: 130px;
+   border: 5px solid black;
+   border-top: none;
+   position: absolute;
+   top: 2px;
+   left: 180px;
+}
+
+.front-handle {
+   width: 20px;
+   border-top: 8px solid black;
+   position: absolute;
+   top: 20px;
+   left: 200px;
+}
+
+.door-back {
+   width: 165px;
+   height: 130px;
+   border: 5px solid black;
+   border-top: none;
+   position: absolute;
+   top: 2px;
+   left: 420px;
+}
+
+.back-handle {
+   width: 20px;
+   border-top: 8px solid black;
+   position: absolute;
+   top: 20px;
+   left: 120px;
+}
+
+.wheel-front {
+   width: 150px;
+   height: 150px;
+   background: rgb(172, 34, 0);
+   position: absolute;
+   top: 60px;
+   left: 40px;
+   border-radius: 50%;
+   z-index: 5;
+}
+
+.wheel-front::before {
+   content: "";
+   width: 150px;
+   height: 150px;
+   background: url("../img/wheel.svg") 0 0 / 150px 150px no-repeat;
+   position: absolute;
+}
+
+.wheel-back {
+   width: 150px;
+   height: 150px;
+   background: rgb(172, 34, 0);
+   position: absolute;
+   top: 60px;
+   left: 500px;
+   border-radius: 50%;
+   z-index: 5;
+}
+
+.wheel-back::before {
+   content: "";
+   width: 150px;
+   height: 150px;
+   background: url("../img/wheel.svg") 0 0 / 150px 150px no-repeat;
+   position: absolute;
+}
+
+.headlight-front {
+   width: 50px;
+   height: 35px;
+   background: rgb(126, 58, 58);
+   border: 5px solid black;
+   position: absolute;
+   border-radius: 0 50% 50% 0;
+   top: 25px;
+   left: 5px;
+   box-shadow: -50px 0 15px yellow;
+}
+
+.headlight-back {
+   width: 40px;
+   height: 35px;
+   background: rgb(255, 77, 77);
+   border: 5px solid black;
+   position: absolute;
+   border-radius: 0 50% 50% 0;
+   top: 25px;
+   left: 660px;
+   box-shadow: 5px 0 15px rgb(255, 8, 0);
+}
+
+.bamper-front {
+   width: 90px;
+   height: 50px;
+   background: rgb(133, 131, 129);
+   position: absolute;
+   top: 100px;
+   left: -10px;
+   border: 3px solid black;
+   border-radius: 20px;
+}
+
+.bamper-back {
+   width: 90px;
+   height: 50px;
+   background: rgb(133, 131, 129);
+   position: absolute;
+   top: 100px;
+   left: 610px;
+   border: 3px solid black;
+   border-radius: 20px;
+}
